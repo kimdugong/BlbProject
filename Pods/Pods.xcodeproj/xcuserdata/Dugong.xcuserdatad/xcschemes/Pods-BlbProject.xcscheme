@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42D401281E4196C20088DA7F"
-               BuildableName = "BlbProject.app"
-               BlueprintName = "BlbProject"
-               ReferencedContainer = "container:BlbProject.xcodeproj">
+               BlueprintIdentifier = "7EC603CF7838E5B6B802EA7B091A1782"
+               BuildableName = "Pods_BlbProject.framework"
+               BlueprintName = "Pods-BlbProject"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42D401281E4196C20088DA7F"
-            BuildableName = "BlbProject.app"
-            BlueprintName = "BlbProject"
-            ReferencedContainer = "container:BlbProject.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42D401281E4196C20088DA7F"
-            BuildableName = "BlbProject.app"
-            BlueprintName = "BlbProject"
-            ReferencedContainer = "container:BlbProject.xcodeproj">
+            BlueprintIdentifier = "7EC603CF7838E5B6B802EA7B091A1782"
+            BuildableName = "Pods_BlbProject.framework"
+            BlueprintName = "Pods-BlbProject"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42D401281E4196C20088DA7F"
-            BuildableName = "BlbProject.app"
-            BlueprintName = "BlbProject"
-            ReferencedContainer = "container:BlbProject.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -1,0 +1,15 @@
+PODS:
+  - GMStepper (2.0.0)
+  - SwiftAnimations (1.1.4)
+
+DEPENDENCIES:
+  - GMStepper
+  - SwiftAnimations
+
+SPEC CHECKSUMS:
+  GMStepper: 6aff0c881afac2f432e5c9b0df71e44e14110a06
+  SwiftAnimations: dbb12dbbae5ce8b0e6a05e7632361f1ee1a4c371
+
+PODFILE CHECKSUM: f32209dab5fc01dc1056b643eaf6e43ea3b1ea6b
+
+COCOAPODS: 1.1.1

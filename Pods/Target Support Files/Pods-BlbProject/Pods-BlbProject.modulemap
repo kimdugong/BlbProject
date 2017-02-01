@@ -1,0 +1,6 @@
+framework module Pods_BlbProject {
+  umbrella header "Pods-BlbProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

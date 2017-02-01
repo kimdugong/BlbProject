@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		098714C4F7DD93AB483735FF9E37C7A9 /* GMStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760EBFB76C46CBE9C357AF3926F1A692 /* GMStepper.swift */; };
+		2806D49099D2CF2E74BAB4D3A75F5147 /* SwiftAnimations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FE927ABECA498DD4EA11AE11C54AAF /* SwiftAnimations-dummy.m */; };
+		33BF161112031F39DB59DE7AC62CA33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4950EBB886A93D216BC333678885E451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5DADA104D26A999430ADC768B92EE596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		617A9EBF3A31F38B771DE5938BD4B620 /* SwiftAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5AC713C6F33CB736F8B7EAF9F64C0D /* SwiftAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CDEB95A4B2FE8E70A1C27FB588CADA2 /* GMStepper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D09E67E1B41ED2C6A01DC7DADC710178 /* GMStepper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70C55F6091E6A03615701CB9B26B3DA9 /* SwiftAnimations_Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B59C6024A89735F6186E3F708A1F57B /* SwiftAnimations_Internal.swift */; };
+		AABB385F41FF9CF5D4CEDBD23F1A808F /* SwiftAnimations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6323776A9295653916B181EC400BA7 /* SwiftAnimations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF36309D5BC96F75E90B88372B98B549 /* GMStepper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCBEB8B088B23E3AEAFF79CDA564861 /* GMStepper-dummy.m */; };
+		C499A82AE808642FCED911AC40CF5EE4 /* Pods-BlbProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D30DE6C468854B96F52C1649E3A2D61 /* Pods-BlbProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4E3959D528E7F4CBD0641544265493A /* SwiftAnimationsDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2207C34A9169B796E6159C7252D02CCA /* SwiftAnimationsDSL.swift */; };
+		FC00CF2D41E7DDD25D444189B7E73060 /* Pods-BlbProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F04A3DD7D4CD25AED929A2EE7B431428 /* Pods-BlbProject-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6892CD28DEF8161CE01CE075B825A81F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB34ADEAC543008FDA771D13AE6F534;
+			remoteInfo = GMStepper;
+		};
+		98015C686BFCC85FD5C0CF71962ACF57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172F38410CB1A273CA2B951911E1F9BE;
+			remoteInfo = SwiftAnimations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2207C34A9169B796E6159C7252D02CCA /* SwiftAnimationsDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAnimationsDSL.swift; path = Sources/SwiftAnimationsDSL.swift; sourceTree = "<group>"; };
+		26FE927ABECA498DD4EA11AE11C54AAF /* SwiftAnimations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAnimations-dummy.m"; sourceTree = "<group>"; };
+		3D30DE6C468854B96F52C1649E3A2D61 /* Pods-BlbProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlbProject-umbrella.h"; sourceTree = "<group>"; };
+		3FC18154D6DC70BE403510F5ABA7CE96 /* GMStepper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMStepper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CABC84B9600233F362E14B7E3F10FA /* GMStepper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMStepper-prefix.pch"; sourceTree = "<group>"; };
+		4736D2A3876AFD979A5B8520AA9A71DA /* Pods-BlbProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlbProject.release.xcconfig"; sourceTree = "<group>"; };
+		4B74458614541CE4D7B4335D5B7BD670 /* Pods_BlbProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlbProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E935A62818F7F045A084D4CE8D85182 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5AC713C6F33CB736F8B7EAF9F64C0D /* SwiftAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftAnimations.h; path = Sources/SwiftAnimations.h; sourceTree = "<group>"; };
+		5C7FF9B1225865CC7A538D3919400ABA /* SwiftAnimations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAnimations.xcconfig; sourceTree = "<group>"; };
+		638BAF754AA1E61F05EC998857ABED1B /* Pods-BlbProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlbProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		6538CD1894CE04B13436A55FD51AEB68 /* SwiftAnimations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAnimations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9FCA046A95DDE209A2BE74E256A39A /* GMStepper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMStepper.xcconfig; sourceTree = "<group>"; };
+		760EBFB76C46CBE9C357AF3926F1A692 /* GMStepper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GMStepper.swift; path = GMStepper/GMStepper.swift; sourceTree = "<group>"; };
+		79994DC5C47579C8F63BC9DA78D23FAB /* Pods-BlbProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlbProject-resources.sh"; sourceTree = "<group>"; };
+		7B59C6024A89735F6186E3F708A1F57B /* SwiftAnimations_Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAnimations_Internal.swift; path = Sources/SwiftAnimations_Internal.swift; sourceTree = "<group>"; };
+		822EF3FCB355C998BB72FDC4572EB64C /* SwiftAnimations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAnimations-prefix.pch"; sourceTree = "<group>"; };
+		8DC08CAE8F13A6472960284B2B239D25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCBEB8B088B23E3AEAFF79CDA564861 /* GMStepper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMStepper-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		991100EAC4CB54162CD7D90FD649255C /* GMStepper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GMStepper.modulemap; sourceTree = "<group>"; };
+		AC6323776A9295653916B181EC400BA7 /* SwiftAnimations-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAnimations-umbrella.h"; sourceTree = "<group>"; };
+		B358C41C1FFDB772D254C937C1CB5304 /* SwiftAnimations.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftAnimations.modulemap; sourceTree = "<group>"; };
+		C5DC190F8074A576B418AACF8D988545 /* Pods-BlbProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BlbProject.modulemap"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D09E67E1B41ED2C6A01DC7DADC710178 /* GMStepper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMStepper-umbrella.h"; sourceTree = "<group>"; };
+		DF6DA57BFB1E01A6ADA545C69ED4653C /* Pods-BlbProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlbProject-frameworks.sh"; sourceTree = "<group>"; };
+		E734FBBCD89976A754ED4F89F19FADC7 /* Pods-BlbProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlbProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F04A3DD7D4CD25AED929A2EE7B431428 /* Pods-BlbProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlbProject-dummy.m"; sourceTree = "<group>"; };
+		F311B3087CB22D1078783BDEEE9016E1 /* Pods-BlbProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlbProject.debug.xcconfig"; sourceTree = "<group>"; };
+		FB744086ABDDE30096F0DD9E5857D45B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88303CD45B6A4DCF9A08DBBD0366AE2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4950EBB886A93D216BC333678885E451 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4A6345387744368D86EB57779E6EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BF161112031F39DB59DE7AC62CA33D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25A4759FF325063AD240B202CA85A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DADA104D26A999430ADC768B92EE596 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CB5BA9194256EAFC72552727DE78CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7B3B6390324E6D63BFE5E3E21EB2F38 /* GMStepper */,
+				51839991C72B0E95347EDFFB9A455E87 /* SwiftAnimations */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F9825743E007EEFED5E59A5356F5646 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DC08CAE8F13A6472960284B2B239D25 /* Info.plist */,
+				B358C41C1FFDB772D254C937C1CB5304 /* SwiftAnimations.modulemap */,
+				5C7FF9B1225865CC7A538D3919400ABA /* SwiftAnimations.xcconfig */,
+				26FE927ABECA498DD4EA11AE11C54AAF /* SwiftAnimations-dummy.m */,
+				822EF3FCB355C998BB72FDC4572EB64C /* SwiftAnimations-prefix.pch */,
+				AC6323776A9295653916B181EC400BA7 /* SwiftAnimations-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftAnimations";
+			sourceTree = "<group>";
+		};
+		4D1D96CE1663B627F0193A5BA77484CA /* Pods-BlbProject */ = {
+			isa = PBXGroup;
+			children = (
+				4E935A62818F7F045A084D4CE8D85182 /* Info.plist */,
+				C5DC190F8074A576B418AACF8D988545 /* Pods-BlbProject.modulemap */,
+				E734FBBCD89976A754ED4F89F19FADC7 /* Pods-BlbProject-acknowledgements.markdown */,
+				638BAF754AA1E61F05EC998857ABED1B /* Pods-BlbProject-acknowledgements.plist */,
+				F04A3DD7D4CD25AED929A2EE7B431428 /* Pods-BlbProject-dummy.m */,
+				DF6DA57BFB1E01A6ADA545C69ED4653C /* Pods-BlbProject-frameworks.sh */,
+				79994DC5C47579C8F63BC9DA78D23FAB /* Pods-BlbProject-resources.sh */,
+				3D30DE6C468854B96F52C1649E3A2D61 /* Pods-BlbProject-umbrella.h */,
+				F311B3087CB22D1078783BDEEE9016E1 /* Pods-BlbProject.debug.xcconfig */,
+				4736D2A3876AFD979A5B8520AA9A71DA /* Pods-BlbProject.release.xcconfig */,
+			);
+			name = "Pods-BlbProject";
+			path = "Target Support Files/Pods-BlbProject";
+			sourceTree = "<group>";
+		};
+		51839991C72B0E95347EDFFB9A455E87 /* SwiftAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				5B5AC713C6F33CB736F8B7EAF9F64C0D /* SwiftAnimations.h */,
+				7B59C6024A89735F6186E3F708A1F57B /* SwiftAnimations_Internal.swift */,
+				2207C34A9169B796E6159C7252D02CCA /* SwiftAnimationsDSL.swift */,
+				1F9825743E007EEFED5E59A5356F5646 /* Support Files */,
+			);
+			path = SwiftAnimations;
+			sourceTree = "<group>";
+		};
+		6EC0801A41E18C8005F0982D903FF6E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				991100EAC4CB54162CD7D90FD649255C /* GMStepper.modulemap */,
+				6B9FCA046A95DDE209A2BE74E256A39A /* GMStepper.xcconfig */,
+				8FCBEB8B088B23E3AEAFF79CDA564861 /* GMStepper-dummy.m */,
+				44CABC84B9600233F362E14B7E3F10FA /* GMStepper-prefix.pch */,
+				D09E67E1B41ED2C6A01DC7DADC710178 /* GMStepper-umbrella.h */,
+				FB744086ABDDE30096F0DD9E5857D45B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GMStepper";
+			sourceTree = "<group>";
+		};
+		715A8960A6D4E32093E789AE259C6400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC18154D6DC70BE403510F5ABA7CE96 /* GMStepper.framework */,
+				4B74458614541CE4D7B4335D5B7BD670 /* Pods_BlbProject.framework */,
+				6538CD1894CE04B13436A55FD51AEB68 /* SwiftAnimations.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				06CB5BA9194256EAFC72552727DE78CE /* Pods */,
+				715A8960A6D4E32093E789AE259C6400 /* Products */,
+				E7BA088018DE450F8F34575CF0114B5B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B3B6390324E6D63BFE5E3E21EB2F38 /* GMStepper */ = {
+			isa = PBXGroup;
+			children = (
+				760EBFB76C46CBE9C357AF3926F1A692 /* GMStepper.swift */,
+				6EC0801A41E18C8005F0982D903FF6E8 /* Support Files */,
+			);
+			path = GMStepper;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7BA088018DE450F8F34575CF0114B5B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D1D96CE1663B627F0193A5BA77484CA /* Pods-BlbProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5D03B2ABE8F1F640EEEDCD8A87104BFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDEB95A4B2FE8E70A1C27FB588CADA2 /* GMStepper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964123DC4A76DFDA6944F6C8D5678141 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABB385F41FF9CF5D4CEDBD23F1A808F /* SwiftAnimations-umbrella.h in Headers */,
+				617A9EBF3A31F38B771DE5938BD4B620 /* SwiftAnimations.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E505E5E2996E22ADDD3FE0BDDC1CA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C499A82AE808642FCED911AC40CF5EE4 /* Pods-BlbProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		172F38410CB1A273CA2B951911E1F9BE /* SwiftAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7478971749B246775561F5393D4102B6 /* Build configuration list for PBXNativeTarget "SwiftAnimations" */;
+			buildPhases = (
+				B9E0F370E7A694B15DD88E9CEDFB08ED /* Sources */,
+				C25A4759FF325063AD240B202CA85A79 /* Frameworks */,
+				964123DC4A76DFDA6944F6C8D5678141 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftAnimations;
+			productName = SwiftAnimations;
+			productReference = 6538CD1894CE04B13436A55FD51AEB68 /* SwiftAnimations.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DB34ADEAC543008FDA771D13AE6F534 /* GMStepper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9893C6E2447721A89CADFE69A1831E9 /* Build configuration list for PBXNativeTarget "GMStepper" */;
+			buildPhases = (
+				5518B22CBCC6C7324B20386255E5C2D6 /* Sources */,
+				8B4A6345387744368D86EB57779E6EB5 /* Frameworks */,
+				5D03B2ABE8F1F640EEEDCD8A87104BFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMStepper;
+			productName = GMStepper;
+			productReference = 3FC18154D6DC70BE403510F5ABA7CE96 /* GMStepper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7EC603CF7838E5B6B802EA7B091A1782 /* Pods-BlbProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D0F4CE7C53E1D8E4B4226944C2BA04 /* Build configuration list for PBXNativeTarget "Pods-BlbProject" */;
+			buildPhases = (
+				67BB5CB9CDCE1FDE22A10B69E3FC8557 /* Sources */,
+				88303CD45B6A4DCF9A08DBBD0366AE2E /* Frameworks */,
+				B8E505E5E2996E22ADDD3FE0BDDC1CA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72B06D7616351AC03C0E1456C48A794B /* PBXTargetDependency */,
+				1B1E64595352EA294AB7422A0043FB6C /* PBXTargetDependency */,
+			);
+			name = "Pods-BlbProject";
+			productName = "Pods-BlbProject";
+			productReference = 4B74458614541CE4D7B4335D5B7BD670 /* Pods_BlbProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					172F38410CB1A273CA2B951911E1F9BE = {
+						LastSwiftMigration = 0820;
+					};
+					6DB34ADEAC543008FDA771D13AE6F534 = {
+						LastSwiftMigration = 0820;
+					};
+					7EC603CF7838E5B6B802EA7B091A1782 = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 715A8960A6D4E32093E789AE259C6400 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DB34ADEAC543008FDA771D13AE6F534 /* GMStepper */,
+				7EC603CF7838E5B6B802EA7B091A1782 /* Pods-BlbProject */,
+				172F38410CB1A273CA2B951911E1F9BE /* SwiftAnimations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5518B22CBCC6C7324B20386255E5C2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF36309D5BC96F75E90B88372B98B549 /* GMStepper-dummy.m in Sources */,
+				098714C4F7DD93AB483735FF9E37C7A9 /* GMStepper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB5CB9CDCE1FDE22A10B69E3FC8557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC00CF2D41E7DDD25D444189B7E73060 /* Pods-BlbProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E0F370E7A694B15DD88E9CEDFB08ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2806D49099D2CF2E74BAB4D3A75F5147 /* SwiftAnimations-dummy.m in Sources */,
+				70C55F6091E6A03615701CB9B26B3DA9 /* SwiftAnimations_Internal.swift in Sources */,
+				D4E3959D528E7F4CBD0641544265493A /* SwiftAnimationsDSL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B1E64595352EA294AB7422A0043FB6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftAnimations;
+			target = 172F38410CB1A273CA2B951911E1F9BE /* SwiftAnimations */;
+			targetProxy = 98015C686BFCC85FD5C0CF71962ACF57 /* PBXContainerItemProxy */;
+		};
+		72B06D7616351AC03C0E1456C48A794B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GMStepper;
+			target = 6DB34ADEAC543008FDA771D13AE6F534 /* GMStepper */;
+			targetProxy = 6892CD28DEF8161CE01CE075B825A81F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F9D612D578F2B77E61FC19F1EFA6F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4736D2A3876AFD979A5B8520AA9A71DA /* Pods-BlbProject.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BlbProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlbProject/Pods-BlbProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BlbProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C8058EECA1BC1B09062ACB80A443EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F311B3087CB22D1078783BDEEE9016E1 /* Pods-BlbProject.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BlbProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlbProject/Pods-BlbProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BlbProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DC34FAEE778D3EF28B420BF9FF708B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7FF9B1225865CC7A538D3919400ABA /* SwiftAnimations.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAnimations/SwiftAnimations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAnimations/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftAnimations/SwiftAnimations.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftAnimations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4679D0168CF584DD27EB1CB9B813E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9FCA046A95DDE209A2BE74E256A39A /* GMStepper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GMStepper/GMStepper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GMStepper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GMStepper/GMStepper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GMStepper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A537CF5B767F4BCEF3A8755AE83466B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7FF9B1225865CC7A538D3919400ABA /* SwiftAnimations.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAnimations/SwiftAnimations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAnimations/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftAnimations/SwiftAnimations.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftAnimations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5A9EE2AF5A87B03B78ACD9C9BC968A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9FCA046A95DDE209A2BE74E256A39A /* GMStepper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GMStepper/GMStepper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GMStepper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GMStepper/GMStepper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GMStepper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D0F4CE7C53E1D8E4B4226944C2BA04 /* Build configuration list for PBXNativeTarget "Pods-BlbProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C8058EECA1BC1B09062ACB80A443EE /* Debug */,
+				2F9D612D578F2B77E61FC19F1EFA6F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7478971749B246775561F5393D4102B6 /* Build configuration list for PBXNativeTarget "SwiftAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC34FAEE778D3EF28B420BF9FF708B3 /* Debug */,
+				A537CF5B767F4BCEF3A8755AE83466B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9893C6E2447721A89CADFE69A1831E9 /* Build configuration list for PBXNativeTarget "GMStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4679D0168CF584DD27EB1CB9B813E1C /* Debug */,
+				D5A9EE2AF5A87B03B78ACD9C9BC968A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
