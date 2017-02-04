@@ -17,11 +17,13 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var productImg: UIImageView!
     @IBOutlet weak var priceLbl: UILabel!
     @IBOutlet weak var stepper: GMStepper!
+    @IBOutlet weak var loadingView: UIView!
+    @IBOutlet weak var indicator: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        UIView.animate(withDuration: 0.3, delay: 0.05, options: .curveEaseOut, animations: {
+        UIView.animate(withDuration: 0.3, delay: 0.4, options: .curveEaseOut, animations: {
             self.optionView.frame.origin.y -= 232
         }) { (complete) in
             if complete == true {
@@ -56,6 +58,18 @@ class DetailViewController: UIViewController {
             priceLbl.text = total
         }
     }
+    @IBAction func Btn1Pressed(_ sender: UIButton) {
+        loadingView.isHidden = false
+        optionView.alpha = 0.8
+        indicator.startAnimating()
+        
+    }
+    @IBAction func Btn2Pressed(_ sender: UIButton) {
+        loadingView.isHidden = false
+        optionView.alpha = 0.8
+        indicator.startAnimating()
+    }
+    
 
     /*
     // MARK: - Navigation

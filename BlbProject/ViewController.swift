@@ -23,6 +23,12 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     let product8: Product = Product(productName: "코나", productId: "8", productPrice: "80000")
     let product9: Product = Product(productName: "콩가", productId: "9", productPrice: "90000")
     let product10: Product = Product(productName: "듀에나 내츄럴", productId: "10", productPrice: "100000")
+    let product11: Product = Product(productName: "콩가2", productId: "11", productPrice: "90000")
+    let product12: Product = Product(productName: "게마도르", productId: "12", productPrice: "80000")
+    let product13: Product = Product(productName: "꼬게", productId: "13", productPrice: "70000")
+    let product14: Product = Product(productName: "엘살바도르", productId: "14", productPrice: "60000")
+    let product15: Product = Product(productName: "레드버번", productId: "15", productPrice: "50000")
+    let product16: Product = Product(productName: "온두라스", productId: "16", productPrice: "40000")
     
     func readyForProduct() {
         product.append(product1)
@@ -35,6 +41,12 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         product.append(product8)
         product.append(product9)
         product.append(product10)
+        product.append(product11)
+        product.append(product12)
+        product.append(product13)
+        product.append(product14)
+        product.append(product15)
+        product.append(product16)
     }
     
     override func viewDidLoad() {
@@ -91,23 +103,13 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         if let detailvc = destinationVC as? DetailViewController {
             if let product = sender as? Product {
                 detailvc.product = product
+//                detailvc.title = product.productName
+                detailvc.title = "BLB"
              
             }
         }
     }
     
-//    class PrimarySplitViewController: UISplitViewController, UISplitViewControllerDelegate {
-//        
-//        override func viewDidLoad() {
-//            self.delegate = self
-//            self.preferredDisplayMode = .allVisible
-//        }
-//        
-//        func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController: UIViewController!, ontoPrimaryViewController primaryViewController: UIViewController!) -> Bool {
-//            // Return YES to prevent UIKit from applying its default behavior
-//            return true 
-//        }
-//    }
 
 }
 
