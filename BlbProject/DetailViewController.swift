@@ -24,7 +24,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         
         UIView.animate(withDuration: 0.3, delay: 0.4, options: .curveEaseOut, animations: {
-            self.optionView.frame.origin.y -= 232
+            self.optionView.frame.origin.y -= 180
         }) { (complete) in
             if complete == true {
                 self.optionView.alpha = 1.0
